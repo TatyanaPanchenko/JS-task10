@@ -31,8 +31,6 @@ formReg.addEventListener("submit", (event) => {
   };
   array.push(userDate);
 
-  console.log(array);
-
   formReg.reset();
 });
 
@@ -43,8 +41,6 @@ formLog.addEventListener("submit", (event) => {
     userPassword: enterPassword.value,
   };
 
-  console.log(array);
-  console.log(checkDate);
   if (array.length === 0) {
     message.textContent = "First create an account";
   }
